@@ -1,0 +1,108 @@
+hash: 9e934c4fce733b6721957a9b77d7150c7b7e1e0dfaab30f58fc0fba536ad6f1b
+updated: 2017-02-17T10:52:49.234937389+11:00
+imports:
+- name: github.com/fsnotify/fsnotify
+  version: f12c6236fe7b5cf6bcf30e5935d08cb079d78334
+- name: github.com/golang/protobuf
+  version: 1f49d83d9aa00e6ce4fc8258c71cc7786aec968a
+  subpackages:
+  - proto
+  - ptypes/empty
+  - ptypes/timestamp
+- name: github.com/hashicorp/hcl
+  version: ef8133da8cda503718a74741312bf50821e6de79
+  subpackages:
+  - hcl/ast
+  - hcl/parser
+  - hcl/scanner
+  - hcl/strconv
+  - hcl/token
+  - json/parser
+  - json/scanner
+  - json/token
+- name: github.com/hyperledger/fabric
+  version: 0addcfb1e574e6a18f1e87b4a0282f9a57a17843
+  subpackages:
+  - core/chaincode/shim
+  - core/chaincode/shim/crypto
+  - core/chaincode/shim/crypto/attr
+  - core/chaincode/shim/crypto/ecdsa
+  - core/comm
+  - core/crypto/attributes
+  - core/crypto/attributes/proto
+  - core/crypto/primitives
+  - core/crypto/utils
+  - core/util
+  - protos
+- name: github.com/kr/fs
+  version: 2788f0dbd16903de03cb8186e5c7d97b69ad387b
+- name: github.com/looplab/fsm
+  version: 608090178e1a61fdcf160bdc3dba4afbb54cf408
+- name: github.com/magiconair/properties
+  version: 0723e352fa358f9322c938cc2dadda874e9151a9
+- name: github.com/mitchellh/mapstructure
+  version: ca63d7c062ee3c9f34db231e352b60012b4fd0c1
+- name: github.com/op/go-logging
+  version: 970db520ece77730c7e4724c61121037378659d9
+- name: github.com/pelletier/go-buffruneio
+  version: df1e16fde7fc330a0ca68167c23bf7ed6ac31d6d
+- name: github.com/pelletier/go-toml
+  version: 45932ad32dfdd20826f5671da37a5f3ce9f26a8d
+- name: github.com/pkg/errors
+  version: a887431f7f6ef7687b556dbf718d9f351d4858a0
+- name: github.com/pkg/sftp
+  version: 8197a2e580736b78d704be0fc47b2324c0591a32
+- name: github.com/spf13/afero
+  version: 52e4a6cfac46163658bd4f123c49b6ee7dc75f78
+  subpackages:
+  - mem
+  - sftp
+- name: github.com/spf13/cast
+  version: 60e7a69a428e9ac1cf7e0c865fc2fe810d34363e
+- name: github.com/spf13/jwalterweatherman
+  version: 33c24e77fb80341fe7130ee7c594256ff08ccc46
+- name: github.com/spf13/pflag
+  version: c7e63cf4530bcd3ba943729cee0efeff2ebea63f
+- name: github.com/spf13/viper
+  version: a78f70b5b977efe08e313a9e2341c3f5457abdaf
+- name: golang.org/x/crypto
+  version: 6ab629be5e31660579425a738ba8870beb5b7404
+  subpackages:
+  - curve25519
+  - ed25519
+  - ed25519/internal/edwards25519
+  - sha3
+  - ssh
+- name: golang.org/x/net
+  version: f4fe4abe3c785295ddf81c7f1823bcd3bad391b6
+  subpackages:
+  - context
+  - http2
+  - http2/hpack
+  - idna
+  - internal/timeseries
+  - lex/httplex
+  - trace
+- name: golang.org/x/sys
+  version: 8f0908ab3b2457e2e15403d3697c9ef5cb4b57a9
+  subpackages:
+  - unix
+- name: golang.org/x/text
+  version: 2df9074612f50810d82416d2229398a1e7188c5c
+  subpackages:
+  - transform
+  - unicode/norm
+- name: google.golang.org/grpc
+  version: 71d2ea4f75286a63b606aca2422cd17ff37fd5b8
+  subpackages:
+  - codes
+  - credentials
+  - grpclog
+  - internal
+  - metadata
+  - naming
+  - peer
+  - transport
+- name: gopkg.in/yaml.v2
+  version: 31c299268d302dd0aa9a0dcf765a3d58971ac83f
+testImports: []

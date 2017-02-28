@@ -1,0 +1,6 @@
+package: github.ibm.com/aur/hyperledger-tutorial/chaincode_example02
+import:
+- package: github.com/hyperledger/fabric
+  version: v0.6
+  subpackages:
+  - core/chaincode/shim
